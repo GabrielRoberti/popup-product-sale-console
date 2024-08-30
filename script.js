@@ -118,8 +118,8 @@
 
     .bell-icon {
         position: fixed;
-        top: 86%;
-        right: 19px;
+        top: calc(100% - 130px);
+        right: 20px;
         z-index: 1001;
         width: 48px;
         height: 48px;
@@ -130,11 +130,11 @@
         justify-content: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
-        display: none;
         font-size: 22px;
         cursor: pointer;
-
+        display: none;
     }
+
 
     .bell-icon:hover {
         transform: scale(1.09);
